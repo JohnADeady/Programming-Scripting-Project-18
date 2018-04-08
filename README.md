@@ -29,7 +29,7 @@ Fisher's linear discriminant analysis used methods in statistics and pattern rec
 This lead to the development of machine learning.
 
 
-
+numpy etc https://solarianprogrammer.com/2017/02/25/install-numpy-scipy-matplotlib-python-3-windows/
 
 
 
