@@ -1,10 +1,34 @@
 # Programming-Scripting-Project-18
-This repository contains a project wich focuses on the Fisher's Iris data set. The project requires researching the data set, and then writing documentation and code in the [Python](https://www.python.org/) programming language based on that research. 
+This repository contains a project which focuses on the Fisher's Iris data set. The project requires researching the data set, and then writing documentation and code in the [Python](https://www.python.org/) programming language based on that research. 
 
-### Research Background
+### Introduction
+The Iris flower data set or Fisher's Iris data set is a multivariate data set introduced by the British statistician and biologist Ronald Fisher in his 1936 paper *The use of multiple measurements in taxonomic problems* as an example of linear discriminant analysis. It is sometimes called Anderson's Iris data set because Edgar Anderson collected the data to quantify the morphologic variation of Iris flowers of three related species. Two of the three species were collected in the Gaspé Peninsula all from the same pasture, and picked on the same day and measured at the same time by the same person with the same apparatus.(ref [wikipedia](https://en.wikipedia.org/wiki/Iris_flower_data_set))
 
-https://www.kaggle.com/danalexandru/simple-analysis-of-iris-dataset
+The iris dataset contains measurements for 150 iris flowers from three different species.The three classes in the Iris dataset:
+ * Iris-setosa 
+ * Iris-versicolor 
+ * Iris-virginica 
 
+The four features of the Iris dataset:
+ * sepal length in cm
+ * sepal width in cm
+ * petal length in cm
+ * petal width in cm
+
+Based on the combination of these four features, Fisher developed a linear discriminant model to distinguish the species from each other.(ref [wikipedia](https://en.wikipedia.org/wiki/Iris_flower_data_set))
+
+### Importance of Fisher's Iris Data Set
+Fisher's linear discriminant analysis used methods in statistics and pattern recognition to find a linear combination of features which characterizes or separates two or more classes of objects or events. The resulting combination may be used as a linear classifier ([ref](https://pdfs.semanticscholar.org/1ab8/ea71fbef3b55b69e142897fadf43b3269463.pdf))
+
+This lead to the development of machine learning.
+
+
+
+
+
+
+
+https://www.kaggle.com/uciml/iris
 At first sight, Petal length and petal width seem to diverge from the normal distribution - graphs
 
 Histogram
@@ -24,7 +48,7 @@ Add a image
 ### References
 
 ### Download the data set and write some Python code
-
+http://sebastianraschka.com/Articles/2014_python_lda.html#introduction
 
 ### Summarise the data set by max, min and mean of each using python
 
