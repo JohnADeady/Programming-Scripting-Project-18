@@ -37,13 +37,22 @@ https://www.packtpub.com/mapt/book/big_data_and_business_intelligence/9781782161
 The Iris dataset is a classic dataset from the 1930s; it is one of the first modern examples of statistical classification.
 The setting is that of Iris flowers, of which there are multiple species that can be identified by their morphology. Today, the species would be defined by their genomic signatures, but in the 1930s, DNA had not even been identified as the carrier of genetic information.
 
-The following four attributes of each plant were measured:
-Sepal length
-Sepal width
-Petal length
-Petal width
-
-Add a image
+ Relevant Information:
+   --- This is perhaps the best known database to be found in the pattern
+       recognition literature.  Fisher's paper is a classic in the field
+       and is referenced frequently to this day.  (See Duda & Hart, for
+       example.)  The data set contains 3 classes of 50 instances each,
+       where each class refers to a type of iris plant.  One class is
+       linearly separable from the other 2; the latter are NOT linearly
+       separable from each other.
+   --- Predicted attribute: class of iris plant.
+   --- This is an exceedingly simple domain.
+   --- This data differs from the data presented in Fishers article
+	(identified by Steve Chadwick,  spchadwick@espeedaz.net )
+	The 35th sample should be: 4.9,3.1,1.5,0.2,"Iris-setosa"
+	where the error is in the fourth feature.
+	The 38th sample: 4.9,3.6,1.4,0.1,"Iris-setosa"
+	where the errors are in the second and third features.  
 
 ### References
 
