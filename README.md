@@ -17,16 +17,24 @@ The four features of the Iris dataset:
 
 Based on the combination of these four features, Fisher developed a linear discriminant model to distinguish the species from each other.(ref [wikipedia](https://en.wikipedia.org/wiki/Iris_flower_data_set))
 
+### Importance of Fisher's Iris Data Set
+Fisher's linear discriminant analysis used methods in statistics and pattern recognition to find a linear combination of features which characterizes or separates two or more classes of objects or events. The resulting combination may be used as a linear classifier ([ref](https://pdfs.semanticscholar.org/1ab8/ea71fbef3b55b69e142897fadf43b3269463.pdf))
+
+This lead to the development of machine learning
+
 ### Downloading the Iris Data Set
  1. Go to [UCI](https://archive.ics.uci.edu/ml/datasets/iris) 
  2. Click on the Data Folder [link](https://archive.ics.uci.edu/ml/machine-learning-databases/iris/)
  3. Click on the [iris.data](https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data)
  4. Copy this to excel and save in a local folder.
 
-### Importance of Fisher's Iris Data Set
-Fisher's linear discriminant analysis used methods in statistics and pattern recognition to find a linear combination of features which characterizes or separates two or more classes of objects or events. The resulting combination may be used as a linear classifier ([ref](https://pdfs.semanticscholar.org/1ab8/ea71fbef3b55b69e142897fadf43b3269463.pdf))
+### Getting Started
+After downloading the Iris data set to excel, We can open this in python. We now need to download open source libraies NumPy, SciPy and Matpotlib(https://pypi.python.org/pypi/numpy). These will help us with scientific computing and technical computing and create graphs and histograms in our analysis of the Iris data set.
 
-This lead to the development of machine learning.
+
+
+
+
 
 
 numpy etc https://solarianprogrammer.com/2017/02/25/install-numpy-scipy-matplotlib-python-3-windows/
