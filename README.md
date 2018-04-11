@@ -32,6 +32,21 @@ This lead to the development of machine learning
 After downloading the Iris data set to excel, We can open this in python. We now need to download open source libraies NumPy, SciPy and Matpotlib(https://pypi.python.org/pypi/numpy). These will help us with scientific computing and technical computing and create graphs and histograms in our analysis of the Iris data set.
 
 
+[NumPy](http://www.numpy.org/) is the fundamental package for scientific computing with Python. It contains among other things:
+ * a powerful N-dimensional array object
+ * sophisticated (broadcasting) functions
+ * tools for integrating C/C++ and Fortran code
+ * useful linear algebra, Fourier transform, and random number capabilities
+ 
+Besides its obvious scientific uses, NumPy can also be used as an efficient multi-dimensional container of generic data. Arbitrary data-types can be defined. This allows NumPy to seamlessly and speedily integrate with a wide variety of databases.
+
+[Matplotlib](https://matplotlib.org/) is a Python 2D plotting library which produces publication quality figures in a variety of hardcopy formats and interactive environments across platforms. Matplotlib can be used in Python scripts, the Python and IPython shells, the Jupyter notebook, web application servers, and four graphical user interface toolkits.
+
+[SciPy](https://en.wikipedia.org/wiki/SciPy) is an open-source Python library used for scientific computing and technical computing.
+SciPy contains modules for optimization, linear algebra, integration, interpolation, special functions, FFT, signal and image processing, ODE solvers and other tasks common in science and engineering.
+
+
+
 
 
 
@@ -70,6 +85,10 @@ The setting is that of Iris flowers, of which there are multiple species that ca
 
 
 ### References
+https://matplotlib.org/
+http://www.numpy.org/
+https://en.wikipedia.org/wiki/SciPy
+
 
 ### Download the data set and write some Python code
 http://sebastianraschka.com/Articles/2014_python_lda.html#introduction
