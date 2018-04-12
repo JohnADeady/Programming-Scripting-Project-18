@@ -46,10 +46,9 @@ Besides its obvious scientific uses, NumPy can also be used as an efficient mult
 SciPy contains modules for optimization, linear algebra, integration, interpolation, special functions, FFT, signal and image processing, ODE solvers and other tasks common in science and engineering.
 
 
-![](TopFive.jpeg)
+![](TopFive.JPG)
 
-
-
+![](BottomFive.JPG)
 
 
 numpy etc https://solarianprogrammer.com/2017/02/25/install-numpy-scipy-matplotlib-python-3-windows/
