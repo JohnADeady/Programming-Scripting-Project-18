@@ -45,10 +45,12 @@ Besides its obvious scientific uses, NumPy can also be used as an efficient mult
 [SciPy](https://en.wikipedia.org/wiki/SciPy) is an open-source Python library used for scientific computing and technical computing.
 SciPy contains modules for optimization, linear algebra, integration, interpolation, special functions, FFT, signal and image processing, ODE solvers and other tasks common in science and engineering.
 
+[pandas](https://pandas.pydata.org/) is an open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language.
 
-![](TopFive.JPG)
 
-![](BottomFive.JPG)
+
+![](Head.JPG)
+![](Tail.JPG)
 
 
 numpy etc https://solarianprogrammer.com/2017/02/25/install-numpy-scipy-matplotlib-python-3-windows/
