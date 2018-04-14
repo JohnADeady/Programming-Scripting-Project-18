@@ -89,6 +89,7 @@ The setting is that of Iris flowers, of which there are multiple species that ca
 https://matplotlib.org/
 http://www.numpy.org/
 https://en.wikipedia.org/wiki/SciPy
+https://www.kaggle.com/danalexandru/simple-analysis-of-iris-dataset
 
 
 ### Download the data set and write some Python code
