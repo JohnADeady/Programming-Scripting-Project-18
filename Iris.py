@@ -38,6 +38,11 @@ print("Sepal width stddev: \t %f" % np.std(data["sepal_width"]))
 print("Petal length stddev:\t %f" % np.std(data["petal_length"]))
 print("Petal width stddev: \t %f\n" % np.std(data["petal_width"]))
 
-# Print the data in table format
+# Print data in table format
 print("Data describe\n---")
 print(data[data.columns[1:]].describe())
+
+# Histogram for each category and show results
+data.hist(
+    column=["sepal_length", "sepal_width", "petal_length", "petal_width", "species"])
+plt.show()
