@@ -90,6 +90,7 @@ https://matplotlib.org/
 http://www.numpy.org/
 https://en.wikipedia.org/wiki/SciPy
 https://www.kaggle.com/danalexandru/simple-analysis-of-iris-dataset
+https://stackoverflow.com/questions/45862223/use-different-colors-in-scatterplot-for-iris-dataset
 
 
 ### Download the data set and write some Python code
