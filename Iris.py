@@ -7,6 +7,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 sns.set(color_codes=True)
 import pandas as pd
+import pylab
 
 # Read data file into array
 data = pd.read_csv('project/Iris.data.csv')
@@ -44,5 +45,28 @@ print(data[data.columns[1:]].describe())
 
 # Histogram for each category and show results
 data.hist(
-    column=["sepal_length", "sepal_width", "petal_length", "petal_width", "species"])
+    column=["sepal_length", "sepal_width", "petal_length", "petal_width"], figsize=(10, 10))
+pylab.suptitle("Analyzing distribution for the series", fontsize="xx-large")
+plt.show("Analysis of Iris Dataset")
+
+
+# Scatter Graph 
+iris = sns.load_dataset("iris")
+iris["ID"] = iris.index
+iris["ratio"] = iris["sepal_length"]/iris["sepal_width"]
+
+sns.lmplot(x="ID", y="ratio", data=iris, hue="species", fit_reg=False, legend=False)
+
+plt.legend()
+plt.show()
+
+
+# Scatter Graph 
+iris = sns.load_dataset("iris")
+iris["ID"] = iris.index
+iris["ratio"] = iris["petal_length"]/iris["petal_width"]
+
+sns.lmplot(x="ID", y="ratio", data=iris, hue="species", fit_reg=False, legend=False)
+
+plt.legend()
 plt.show()
