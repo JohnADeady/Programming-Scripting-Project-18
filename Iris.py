@@ -70,3 +70,20 @@ sns.lmplot(x="ID", y="ratio", data=iris, hue="species", fit_reg=False, legend=Fa
 
 plt.legend()
 plt.show()
+
+ 3D
+fig = plt.figure()
+ax = fig.add_subplot(111, projection='3d')
+X = [data["petal_width"], data["petal_length"]]
+n = 100
+ax.scatter(data["petal_width"], data["petal_length"], data["sepal_length"])
+
+ax.set_title('3D Correlation of Iris dataset', fontsize=14)
+ax.set_xlabel('petal_width')
+ax.set_ylabel('petal_length')
+ax.set_zlabel('sepal_length')
+
+ax.grid(True,linestyle='-',color='0.75')
+
+plt.tight_layout(pad=0.5)
+plt.show()
