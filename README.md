@@ -87,13 +87,20 @@ The setting is that of Iris flowers, of which there are multiple species that ca
 
 ### References
 https://matplotlib.org/
+
 http://www.numpy.org/
+
 https://en.wikipedia.org/wiki/SciPy
+
 https://www.kaggle.com/danalexandru/simple-analysis-of-iris-dataset
+
 https://stackoverflow.com/questions/45862223/use-different-colors-in-scatterplot-for-iris-dataset
+
 https://rpubs.com/mculp/290780
+
 https://plot.ly/ipython-notebooks/principal-component-analysis/
 
+https://www.neuraldesigner.com/learning/examples/iris_flowers_classification
 ### Download the data set and write some Python code
 http://sebastianraschka.com/Articles/2014_python_lda.html#introduction
 
