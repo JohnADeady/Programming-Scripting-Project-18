@@ -17,19 +17,53 @@ The four features of the Iris dataset:
 
 Based on the combination of these four features, Fisher developed a linear discriminant model to distinguish the species from each other.(ref [wikipedia](https://en.wikipedia.org/wiki/Iris_flower_data_set))
 
+![](https://diwashrestha.com/wp-content/uploads/2017/09/images.jpg)
+
+
 ### Importance of Fisher's Iris Data Set
-Fisher's linear discriminant analysis used methods in statistics and pattern recognition to find a linear combination of features which characterizes or separates two or more classes of objects or events. The resulting combination may be used as a linear classifier ([ref](https://pdfs.semanticscholar.org/1ab8/ea71fbef3b55b69e142897fadf43b3269463.pdf))
+Fisher’s Iris flower data set became a staple of the computing world, especially for testing purposes. The Iris dataset is deservedly widely used throughout statistical science, especially for illustrating various problems in statistical graphics, multivariate statistics and machine learning.
 
-This lead to the development of machine learning
+The reason why this is widely used for testing purposes:
+* It contains 150 observations, it is small but not trivial.
+* The task it poses of discriminating between three species of Iris from measurements of their petals and sepals is simple but challenging.
+* The data is real data, of good quality. In principle and in practice, test datasets could be synthetic and that might be necessary or useful to make a point.[ref](https://stats.stackexchange.com/questions/74776/what-aspects-of-the-iris-data-set-make-it-so-successful-as-an-example-teaching)
+	
 
-### Downloading the Iris Data Set
+### Getting Started
+##### Downloading the Iris Data Set
  1. Go to [UCI](https://archive.ics.uci.edu/ml/datasets/iris) 
  2. Click on the Data Folder [link](https://archive.ics.uci.edu/ml/machine-learning-databases/iris/)
  3. Click on the [iris.data](https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data)
  4. Copy this to excel and save in a local folder.
+ 
+ 
+##### Installing Downloads
+[Python](https://www.python.org/) is receommended to run these programs. In order to get started we must download [Anaconda](https://www.anaconda.com/download/) and then [VS Code](https://code.visualstudio.com/).
 
-### Getting Started
-After downloading the Iris data set to excel, We can open this in python. We now need to download open source libraies NumPy, SciPy and Matpotlib(https://pypi.python.org/pypi/numpy). These will help us with scientific computing and technical computing and create graphs and histograms in our analysis of the Iris data set.
+[Anaconda](https://www.anaconda.com/download/) is a free and open source distribution of the Python and R programming languages for large-scale data processing, predictive analytics, and scientific computing, that aims to simplify package management and deployment.
+
+[VS Code](https://code.visualstudio.com/). is a source code editor developed by Microsoft for Windows, Linux and macOS. It includes support for debugging, embedded Git control, syntax highlighting, intelligent code completion, snippets, and code refactoring. (ref Wikipedia)
+
+Step by sted guide for downloading [Python](https://www.python.org/)
+ 1. Open [Python](https://www.python.org/)
+ 2. Download version Python [3.6.5](https://www.python.org/downloads/)
+ 3. Follow the instructions on screen - unsure about settings accept the default settings.
+ 
+Step by sted guide for downloading [Anaconda](https://www.anaconda.com/download/):
+1. Open Anaconda Download
+2. Click Python 3.6 version
+3. Follow the instructions on screen - unsure about settings accept the default settings.
+4. Once completed test installation
+
+Step by sted guide for downloading [VS Code](https://code.visualstudio.com/)
+1. Open VS Studio Download
+2. Depending on your OS system - click the appropriate one ie Windows, Mac.
+3. Follow the instructions on screen - unsure about settings accept the default settings.
+4. Once completed run a simple program 
+
+
+
+
 
 
 [NumPy](http://www.numpy.org/) is the fundamental package for scientific computing with Python. It contains among other things:
@@ -43,7 +77,7 @@ Besides its obvious scientific uses, NumPy can also be used as an efficient mult
 [Matplotlib](https://matplotlib.org/) is a Python 2D plotting library which produces publication quality figures in a variety of hardcopy formats and interactive environments across platforms. Matplotlib can be used in Python scripts, the Python and IPython shells, the Jupyter notebook, web application servers, and four graphical user interface toolkits.
 
 [SciPy](https://en.wikipedia.org/wiki/SciPy) is an open-source Python library used for scientific computing and technical computing.
-SciPy contains modules for optimization, linear algebra, integration, interpolation, special functions, FFT, signal and image processing, ODE solvers and other tasks common in science and engineering.
+SciPy contains modules for optimization, linear algebra, integration, interpolation, special functions, FFT, signal and image processing, ODE solvers and other tasks common in science and engineering.	
 
 [pandas](https://pandas.pydata.org/) is an open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language.
 
@@ -101,6 +135,11 @@ https://rpubs.com/mculp/290780
 https://plot.ly/ipython-notebooks/principal-component-analysis/
 
 https://www.neuraldesigner.com/learning/examples/iris_flowers_classification
+
+https://en.wikipedia.org/wiki/Iris_flower_data_set
+
+https://www.techopedia.com/definition/32880/iris-flower-data-set
+
 ### Download the data set and write some Python code
 http://sebastianraschka.com/Articles/2014_python_lda.html#introduction
 
