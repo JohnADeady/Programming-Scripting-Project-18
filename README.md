@@ -15,12 +15,12 @@ The four features of the Iris dataset:
  * petal length in cm
  * petal width in cm
 
-Based on the combination of these four features, Fisher developed a linear discriminant model to distinguish the species from each other.(ref [wikipedia](https://en.wikipedia.org/wiki/Iris_flower_data_set))
+Based on the combination of these four features, Fisher developed a linear discriminant model to distinguish the species from each other.(Ref [Wikipedia](https://en.wikipedia.org/wiki/Iris_flower_data_set))
 
 <img src="https://diwashrestha.com/wp-content/uploads/2017/09/images.jpg" height="200" width="600">
 
 ### Importance of Fisher's Iris Data Set
-Fisher’s Iris flower data set became a staple of the computing world, especially for testing purposes. The Iris dataset is widely used throughout statistical science, especially for illustrating various problems in statistical graphics, multivariate statistics and machine learning.
+Fisher’s Iris data set became a staple of the computing world, especially for testing purposes. The Iris dataset is widely used throughout statistical science, especially for illustrating various problems in statistical graphics, multivariate statistics and machine learning.
 
 The reason why this is widely used for testing purposes:
 * It contains 150 observations, it is small but not trivial.
