@@ -25,7 +25,7 @@ Fisher’s Iris data set became a staple of the computing world, especially for 
 The reason why this is widely used for testing purposes:
 * It contains 150 observations, it is small but not trivial.
 * The task it poses of discriminating between three species of Iris from measurements of their petals and sepals is simple but challenging.
-* The data is real data, of good quality. In principle and in practice, test datasets could be synthetic and that might be necessary or useful to make a point.[Ref](https://stats.stackexchange.com/questions/74776/what-aspects-of-the-iris-data-set-make-it-so-successful-as-an-example-teaching)
+* The data is real data, of good quality. In principle and in practice, test datasets could be synthetic and that might be necessary or useful to make a point. (Ref [Importance](https://stats.stackexchange.com/questions/74776/what-aspects-of-the-iris-data-set-make-it-so-successful-as-an-example-teaching)
 	
 
 ### Getting Started
