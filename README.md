@@ -43,7 +43,7 @@ The reason why this is widely used for testing purposes:
 
 [VS Code](https://code.visualstudio.com/). is a source code editor developed by Microsoft for Windows, Linux and macOS. It includes support for debugging, embedded Git control, syntax highlighting, intelligent code completion, snippets, and code refactoring. (Ref [Wikipedia](https://en.wikipedia.org/wiki/Visual_Studio_Code)
 
-Step by sted guide for downloading [Python](https://www.python.org/)
+Step by sted guide for downloading [Python](https://www.python.org/):
  1. Open [Python](https://www.python.org/)
  2. Download version Python [3.6.5](https://www.python.org/downloads/)
  3. Follow the instructions on screen - unsure about settings accept the default settings.
@@ -54,7 +54,7 @@ Step by sted guide for downloading [Anaconda](https://www.anaconda.com/download/
 3. Follow the instructions on screen - unsure about settings accept the default settings.
 4. Once completed test installation
 
-Step by sted guide for downloading [VS Code](https://code.visualstudio.com/)
+Step by sted guide for downloading [VS Code](https://code.visualstudio.com/):
 1. Open VS Studio DownloadN
 2. Depending on your OS system - click the appropriate one ie Windows, Mac.
 3. Follow the instructions on screen - unsure about settings accept the default settings.
@@ -89,14 +89,17 @@ from sklearn import decomposition
 from sklearn import datasets
 ```
 
+Next import the iris data set into [VSC](https://code.visualstudio.com/) so the data can be read and analysis using Pandas](https://pandas.pydata.org/)
 
-Next import the iris data set 
+```data = pd.read_csv('project/Iris.data.csv')```
 
-![](Head.JPG)
-![](Tail.JPG)
+Our first piece of analysis is requesting the top and bottom lines of the data set shown in the images attached.
 
 
-numpy etc https://solarianprogrammer.com/2017/02/25/install-numpy-scipy-matplotlib-python-3-windows/
+<img src="Head.JPG" height="200" width="600">
+
+<img src="Tail.JPG" height="200" width="600">
+
 
 
 ### Write a summary of your investigation
@@ -141,8 +144,7 @@ https://stats.stackexchange.com/questions/74776/what-aspects-of-the-iris-data-se
 
 http://sebastianraschka.com/Articles/2014_python_lda.html#introduction
 
-
-
+numpy etc https://solarianprogrammer.com/2017/02/25/install-numpy-scipy-matplotlib-python-3-windows/
 
 ### Built With
 This repository contains Python code only.
