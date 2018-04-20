@@ -2,7 +2,7 @@
 This repository contains a project which focuses on the Fisher's Iris data set. The project requires researching the data set, and then writing documentation and code in the [Python](https://www.python.org/) programming language based on that research. 
 
 ### Introduction
-The Iris flower data set or Fisher's Iris data set is a multivariate data set introduced by the British statistician and biologist Ronald Fisher in his 1936 paper *The Use of Multiple Measurements in Taxonomic Problems* as an example of linear discriminant analysis. It is sometimes called Anderson's Iris data set because Edgar Anderson collected the data to quantify the morphologic variation of Iris flowers of three related species. Two of the three species were collected in the Gaspé Peninsula all from the same pasture, and picked on the same day and measured at the same time by the same person with the same apparatus.(Ref. [Wikipedia](https://en.wikipedia.org/wiki/Iris_flower_data_set))
+The Iris flower data set or Fisher's Iris data set is a multivariate data set introduced by the British statistician and biologist Ronald Fisher in his 1936 paper *The Use of Multiple Measurements in Taxonomic Problems* as an example of linear discriminant analysis. It is sometimes called Anderson's Iris data set because Edgar Anderson collected the data to quantify the morphologic variation of Iris flowers of three related species. Two of the three species were collected in the Gaspé Peninsula all from the same pasture, and picked on the same day and measured at the same time by the same person with the same apparatus. [[1]](https://en.wikipedia.org/wiki/Iris_flower_data_set)
 
 The iris dataset contains measurements for 150 iris flowers from three different species.The three species in the Iris dataset are:
  * Iris-setosa 
@@ -15,7 +15,7 @@ The four features of the Iris dataset:
  * petal length in cm
  * petal width in cm
 
-Based on the combination of these four features, Fisher developed a linear discriminant model to distinguish the species from each other.(Ref [Wikipedia](https://en.wikipedia.org/wiki/Iris_flower_data_set))
+Based on the combination of these four features, Fisher developed a linear discriminant model to distinguish the species from each other. [[1]](https://en.wikipedia.org/wiki/Iris_flower_data_set)
 
 <img src="https://diwashrestha.com/wp-content/uploads/2017/09/images.jpg" height="200" width="600">
 
@@ -25,7 +25,7 @@ Fisher’s Iris data set became a staple of the computing world, especially for 
 The reason why this is widely used for testing purposes:
 * It contains 150 observations, it is small but not trivial.
 * The task it poses of discriminating between three species of Iris from measurements of their petals and sepals is simple but challenging.
-* The data is real data, of good quality. In principle and in practice, test datasets could be synthetic and that might be necessary or useful to make a point. (Ref [Importance](https://stats.stackexchange.com/questions/74776/what-aspects-of-the-iris-data-set-make-it-so-successful-as-an-example-teaching))
+* The data is real data, of good quality. In principle and in practice, test datasets could be synthetic and that might be necessary or useful to make a point. [[2]](https://stats.stackexchange.com/questions/74776/what-aspects-of-the-iris-data-set-make-it-so-successful-as-an-example-teaching))
 	
 
 ### Getting Started
@@ -99,6 +99,10 @@ The setting is that of Iris flowers, of which there are multiple species that ca
 
 
 ### References
+1. https://en.wikipedia.org/wiki/Iris_flower_data_set
+
+2. https://stats.stackexchange.com/questions/74776/what-aspects-of-the-iris-data-set-make-it-so-successful-as-an-example-teaching
+
 https://matplotlib.org/
 
 http://www.numpy.org/
