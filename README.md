@@ -60,7 +60,7 @@ Step by sted guide for downloading [VS Code](https://code.visualstudio.com/)
 3. Follow the instructions on screen - unsure about settings accept the default settings.
 4. Once completed run a simple program
 
-#### Tools Used for Analysis
+#### Libraries Used for Analysis
 1. [NumPy](http://www.numpy.org/) is the fundamental package for scientific computing with Python. It contains among other things:
  * a powerful N-dimensional array object
  * sophisticated (broadcasting) functions
@@ -76,7 +76,21 @@ Besides its obvious scientific uses, NumPy can also be used as an efficient mult
 
 
 ### Summarise the data set by max, min and mean of each using python
+We begin my import the librares that are needed to analysis the appropriate data.
 
+```import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+sns.set(color_codes=True)
+import pandas as pd
+import pylab
+from mpl_toolkits.mplot3d import Axes3D
+from sklearn import decomposition
+from sklearn import datasets
+```
+
+
+Next import the iris data set 
 
 ![](Head.JPG)
 ![](Tail.JPG)
