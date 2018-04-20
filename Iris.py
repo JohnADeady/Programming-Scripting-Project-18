@@ -71,7 +71,7 @@ sns.lmplot(x="ID", y="ratio", data=iris, hue="species", fit_reg=False, legend=Fa
 plt.legend()
 plt.show()
 
- 3D
+# 3D
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
 X = [data["petal_width"], data["petal_length"]]
@@ -86,4 +86,12 @@ ax.set_zlabel('sepal_length')
 ax.grid(True,linestyle='-',color='0.75')
 
 plt.tight_layout(pad=0.5)
+plt.show()
+
+# Using seaborn pairplot to see the bivariate relation between each pair of features
+sns.pairplot(data, hue="species")
+plt.show()
+
+# violinplots on petal-length for each species
+sns.violinplot(data=data,x="species", y="petal_length")
 plt.show()
