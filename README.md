@@ -99,6 +99,22 @@ Our first piece of analysis is requesting the top and bottom lines of the data s
 <img src="Head.JPG" height="200" width="600">
 
 <img src="Tail.JPG" height="200" width="600">
+ 
+ We look at the types of species included and the lenght of the data set which we are analysing 
+ 
+ ``` species = list(data["species"].unique())```
+ 
+ ``` print("Dataset length: %i\n" % len(data))```
+ 
+ Using the panda tool we create a table which includes the min, max and mean as well as other relevant data
+ 
+ 
+<img src="Table.JPG" height="200" width="600">
+ 
+ 
+ 
+ 
+ 
 
 
 
