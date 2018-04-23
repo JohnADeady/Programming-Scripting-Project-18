@@ -118,34 +118,30 @@ Our first piece of analysis is requesting the top and bottom lines of the data s
   <img src="Sepal.png" height="600" width="600">
   
   <img src="Petal.png" height="600" width="600">
+  
+  We create a three 3D plot to show the correlation of the iris data set.
+  
+ <img src="3D.png" height="600" width="600"> 
  
+ We then create a seaborn pairplot. This function will create a grid of Axes such that each variable in data will by shared in the y-axis across a single row and in the x-axis across a single column [3](https://seaborn.pydata.org/generated/seaborn.pairplot.html)
  
+ <img src="pairplot.png" height="600" width="600">
+ 
+ And finally violinplot for each petal and sepal.
 
 
-
-### Write a summary of your investigation
-
-https://www.kaggle.com/uciml/iris
-At first sight, Petal length and petal width seem to diverge from the normal distribution - graphs
-
-Histogram
-
-https://www.packtpub.com/mapt/book/big_data_and_business_intelligence/9781782161400/2/ch02lvl1sec14/the-iris-dataset
-The Iris dataset is a classic dataset from the 1930s; it is one of the first modern examples of statistical classification.
-The setting is that of Iris flowers, of which there are multiple species that can be identified by their morphology. Today, the species would be defined by their genomic signatures, but in the 1930s, DNA had not even been identified as the carrier of genetic information.
+## Write a summary of your investigation
+https://www.kaggle.com/uciml/iris At first sight, Petal length and petal width seem to diverge from the normal distribution - graphs
 
 
+https://www.packtpub.com/mapt/book/big_data_and_business_intelligence/9781782161400/2/ch02lvl1sec14/the-iris-dataset The Iris dataset is a classic dataset from the 1930s; it is one of the first modern examples of statistical classification. The setting is that of Iris flowers, of which there are multiple species that can be identified by their morphology. Today, the species would be defined by their genomic signatures, but in the 1930s, DNA had not even been identified as the carrier of genetic information.
 
-### References
+## References
 1. https://en.wikipedia.org/wiki/Iris_flower_data_set
 
 2. https://stats.stackexchange.com/questions/74776/what-aspects-of-the-iris-data-set-make-it-so-successful-as-an-example-teaching
 
-https://matplotlib.org/
-
-http://www.numpy.org/
-
-https://en.wikipedia.org/wiki/SciPy
+3. https://seaborn.pydata.org/generated/seaborn.pairplot.html)
 
 https://www.kaggle.com/danalexandru/simple-analysis-of-iris-dataset
 
