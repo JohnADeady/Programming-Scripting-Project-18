@@ -113,6 +113,13 @@ Our first piece of analysis is requesting the top and bottom lines of the data s
  
  <img src="Histogram.png" height="600" width="1000">
  
+ We create scatterplot that shows the ratio between the width and length of both sepal leafs and petal leafs. 
+ 
+  <img src="Sepal.png" height="600" width="600">
+  
+  <img src="Petal.png" height="600" width="600">
+ 
+ 
 
 
 
