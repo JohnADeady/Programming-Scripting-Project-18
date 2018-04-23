@@ -25,7 +25,7 @@ Fisher’s Iris data set became a staple of the computing world, especially for 
 The reason why this is widely used for testing purposes:
 * It contains 150 observations, it is small but not trivial.
 * The task it poses of discriminating between three species of Iris from measurements of their petals and sepals is simple but challenging.
-* The data is real data, of good quality. In principle and in practice, test datasets could be synthetic and that might be necessary or useful to make a point. [[2]](https://stats.stackexchange.com/questions/74776/what-aspects-of-the-iris-data-set-make-it-so-successful-as-an-example-teaching))
+* The data is real data, of good quality. In principle and in practice, test datasets could be synthetic and that might be necessary or useful to make a point. [[2]](https://stats.stackexchange.com/questions/74776/what-aspects-of-the-iris-data-set-make-it-so-successful-as-an-example-teaching)
 	
 
 ### Getting Started
@@ -76,7 +76,7 @@ Besides its obvious scientific uses, NumPy can also be used as an efficient mult
 
 
 ### Summarise the data set by max, min and mean of each using python
-We begin my import the librares that are needed to analysis the appropriate data.
+We begin my import the librares that are needed to analysis the iris data set.
 
 ```import numpy as np
 import seaborn as sns
@@ -85,21 +85,19 @@ sns.set(color_codes=True)
 import pandas as pd
 import pylab
 from mpl_toolkits.mplot3d import Axes3D
-from sklearn import decomposition
-from sklearn import datasets
 ```
 
 Next import the iris data set into [VSC](https://code.visualstudio.com/) so the data can be read and analysis using Pandas](https://pandas.pydata.org/)
 
 ```data = pd.read_csv('project/Iris.data.csv')```
 
-Our first piece of analysis is requesting the top and bottom lines of the data set shown in the images attached.
+Our first piece of analysis is requesting the top and bottom lines of the data set shown in the images below.
 
 
 <img src="Head.JPG" height="200" width="600">
 
-<img src="Tail.JPG" height="200" width="600">
- 
+<img src="Tail.JPG" height="200" width="600"> 
+
  We look at the types of species included and the lenght of the data set which we are analysing 
  
  ``` species = list(data["species"].unique())```
@@ -111,9 +109,9 @@ Our first piece of analysis is requesting the top and bottom lines of the data s
  
 <img src="Table.JPG" height="200" width="600">
  
+ Next we create a histogram analyzing dsitribution for the data set
  
- 
- 
+ <img src="Histogram.png" height="600" width="1000">
  
 
 
