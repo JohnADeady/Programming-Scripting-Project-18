@@ -125,10 +125,17 @@ Our first piece of analysis is requesting the top and bottom lines of the data s
  
  We then create a seaborn pairplot. This function will create a grid of Axes such that each variable in data will by shared in the y-axis across a single row and in the x-axis across a single column [3](https://seaborn.pydata.org/generated/seaborn.pairplot.html)
  
- <img src="pairplot.png" height="600" width="600">
+ <img src="Pairplot.png" height="1200" width="1000">
  
  And finally violinplot for each petal and sepal.
+ 
+<img src="Petall.png" height="600" width="600">
 
+<img src="Petalw.png" height="600" width="600">
+
+<img src="Sepall.png" height="600" width="600">
+
+<img src="Sepalw.png" height="600" width="600">
 
 ## Write a summary of your investigation
 https://www.kaggle.com/uciml/iris At first sight, Petal length and petal width seem to diverge from the normal distribution - graphs
