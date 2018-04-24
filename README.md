@@ -87,7 +87,7 @@ import pylab
 from mpl_toolkits.mplot3d import Axes3D
 ```
 
-Next import the iris data set into [VSC](https://code.visualstudio.com/) so the data can be read and analysis using Pandas](https://pandas.pydata.org/)
+Next import the iris data set into [VSC](https://code.visualstudio.com/) so the data can be read and analysis using [Pandas](https://pandas.pydata.org/)
 
 ```data = pd.read_csv('project/Iris.data.csv')```
 
@@ -123,11 +123,11 @@ Our first piece of analysis is requesting the top and bottom lines of the data s
   
  <img src="3D.png" height="600" width="600"> 
  
- We then create a seaborn pairplot. This function will create a grid of Axes such that each variable in data will by shared in the y-axis across a single row and in the x-axis across a single column [3](https://seaborn.pydata.org/generated/seaborn.pairplot.html)
+ We then create a seaborn pairplot. This function will create a grid of Axes such that each variable in data will by shared in the y-axis across a single row and in the x-axis across a single column [[3]](https://seaborn.pydata.org/generated/seaborn.pairplot.html)
  
  <img src="Pairplot.png" height="1200" width="1000">
  
- And finally violinplot for each petal and sepal.
+ And finally creating violinplots for each petal and sepal, lenght and width.
  
 <img src="Petall.png" height="600" width="600">
 
@@ -138,23 +138,33 @@ Our first piece of analysis is requesting the top and bottom lines of the data s
 <img src="Sepalw.png" height="600" width="600">
 
 ## Write a summary of your investigation
-https://www.kaggle.com/uciml/iris At first sight, Petal length and petal width seem to diverge from the normal distribution - graphs
+We begin by downloading the the Iris data set from [UCI](https://archive.ics.uci.edu/ml/datasets/iris) and we discovered that we are analysing 150 lines of data made up of 3 different types of species of iris; setosa, versicolor and virginica. 
+
+Using [Pandas](https://pandas.pydata.org/) a data analysis tools for the Python programming language, we create a data table. Included in this table, are count, mean, standard deviation, min , 25%, 50%, 75% and finally max. From this table, we identify that the sepal length is the longest in centimetres with the average being 5.843333 while the petal width is the shortest in centimetres with the averaging being 1.198667.
+
+Looking from the point of view of standard deviation, petal length is the furthest away from the mean at 1.764420 while sepal width has the least deviation from the mean at 0.433594
+
+Our histogram shows both the petal lenght and width are left skewed meaning that the majoruty is greater than the mean while the sepal lenght and width has a bell shaped i.e. shape is symmetrical meaning the majority are relative close to the mean.
+
+Next up is the scatterplots One type of species, the setosa is linearly separable from the other two species, but the other two species are not linearly separable from each other. [[4]](https://www.kaggle.com/uciml/iris) The plots clearly show the virginica variety of plants have the greatest petal lengths and widths of the three, while the setosa variety has the smallest.The virginica variety also have the greatest sepal lengths but the setosa variety have greatest sepal widths.The versicolor plants seem to lie in the middle ranges of all the measurements taken.[[5]](https://rpubs.com/mculp/290780)
+
+3D scatter plots are used to plot data points on three axes in the attempt to show the relationship between three variables. Each row in the data table is represented by a marker whose position depends on its values in the columns set on the X, Y, and Z axes. [[6]](https://docs.tibco.com/pub/spotfire/6.5.1/doc/html/3d_scat/3d_scat_what_is_a_3d_scatter_plot.htm). Our scatterplot indicates 
 
 
-https://www.packtpub.com/mapt/book/big_data_and_business_intelligence/9781782161400/2/ch02lvl1sec14/the-iris-dataset The Iris dataset is a classic dataset from the 1930s; it is one of the first modern examples of statistical classification. The setting is that of Iris flowers, of which there are multiple species that can be identified by their morphology. Today, the species would be defined by their genomic signatures, but in the 1930s, DNA had not even been identified as the carrier of genetic information.
-
-## References
+## Referencest
 1. https://en.wikipedia.org/wiki/Iris_flower_data_set
 
 2. https://stats.stackexchange.com/questions/74776/what-aspects-of-the-iris-data-set-make-it-so-successful-as-an-example-teaching
 
-3. https://seaborn.pydata.org/generated/seaborn.pairplot.html)
+3. https://seaborn.pydata.org/generated/seaborn.pairplot.html
+
+4. https://www.kaggle.com/uciml/iris
+
+5. https://rpubs.com/mculp/290780
+
+6. https://docs.tibco.com/pub/spotfire/6.5.1/doc/html/3d_scat/3d_scat_what_is_a_3d_scatter_plot.htm
 
 https://www.kaggle.com/danalexandru/simple-analysis-of-iris-dataset
-
-https://stackoverflow.com/questions/45862223/use-different-colors-in-scatterplot-for-iris-dataset
-
-https://rpubs.com/mculp/290780
 
 https://plot.ly/ipython-notebooks/principal-component-analysis/
 
