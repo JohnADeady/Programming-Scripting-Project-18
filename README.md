@@ -123,7 +123,7 @@ Our first piece of analysis is requesting the top and bottom lines of the data s
   
  <img src="3D.png" height="600" width="600"> 
  
- We then create a seaborn pairplot. This function will create a grid of Axes such that each variable in data will by shared in the y-axis across a single row and in the x-axis across a single column [[3]](https://seaborn.pydata.org/generated/seaborn.pairplot.html)
+ We then create a seaborn pairplot. 
  
  <img src="Pairplot.png" height="1200" width="1000">
  
@@ -148,7 +148,11 @@ Our histogram shows both the petal lenght and width are left skewed meaning that
 
 Next up is the scatterplots One type of species, the setosa is linearly separable from the other two species, but the other two species are not linearly separable from each other. [[4]](https://www.kaggle.com/uciml/iris) The plots clearly show the virginica variety of plants have the greatest petal lengths and widths of the three, while the setosa variety has the smallest.The virginica variety also have the greatest sepal lengths but the setosa variety have greatest sepal widths.The versicolor plants seem to lie in the middle ranges of all the measurements taken.[[5]](https://rpubs.com/mculp/290780)
 
-3D scatter plots are used to plot data points on three axes in the attempt to show the relationship between three variables. Each row in the data table is represented by a marker whose position depends on its values in the columns set on the X, Y, and Z axes. [[6]](https://docs.tibco.com/pub/spotfire/6.5.1/doc/html/3d_scat/3d_scat_what_is_a_3d_scatter_plot.htm). Our scatterplot indicates 
+3D scatter plots are used to plot data points on three axes in the attempt to show the relationship between three variables. Each row in the data table is represented by a marker whose position depends on its values in the columns set on the X, Y, and Z axes. [[6]](https://docs.tibco.com/pub/spotfire/6.5.1/doc/html/3d_scat/3d_scat_what_is_a_3d_scatter_plot.htm). Our scatterplot indicates petal width is shorter than the petal and sepal length which we have also seen earlier in this anaylsis.
+
+Seaborn pairplot function creates a grid of axes such that each variable in data will by shared in the y-axis across a single row and in the x-axis across a single column [[3]](https://seaborn.pydata.org/generated/seaborn.pairplot.html). This is very useful to show the correlation of all variales against each other.
+ 
+
 
 
 ## Referencest
