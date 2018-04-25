@@ -146,13 +146,15 @@ Looking at the standard deviation, petal length is the furthest away from the me
 
 Our histogram shows both the petal lenght and width are left skewed meaning that the majoruty is greater than the mean while the sepal lenght and width has a bell shaped i.e. shape is symmetrical meaning the majority are relative close to the mean.
 
-Next up is the scatterplots One type of species, the setosa is linearly separable from the other two species, but the other two species are not linearly separable from each other. [[4]](https://www.kaggle.com/uciml/iris) The plots clearly show the virginica variety of plants have the greatest petal lengths and widths of the three, while the setosa variety has the smallest.The virginica variety also have the greatest sepal lengths but the setosa variety have greatest sepal widths.The versicolor plants seem to lie in the middle ranges of all the measurements taken.[[5]](https://rpubs.com/mculp/290780)
+Next up are the scatter plots, one type of species the setosa is linearly separable from the other two species, but the other two species are not linearly separable from each other. [[4]](https://www.kaggle.com/uciml/iris) The plots clearly show the virginica variety of plants have the greatest petal lengths and widths of the three, while the setosa variety has the smallest.The virginica variety also have the greatest sepal lengths but the setosa variety have greatest sepal widths.The versicolor plants seem to lie in the middle ranges of all the measurements taken.[[5]](https://rpubs.com/mculp/290780)
 
 3D scatter plots are used to plot data points on three axes in the attempt to show the relationship between three variables. Each row in the data table is represented by a marker whose position depends on its values in the columns set on the X, Y, and Z axes. [[6]](https://docs.tibco.com/pub/spotfire/6.5.1/doc/html/3d_scat/3d_scat_what_is_a_3d_scatter_plot.htm). Our scatterplot indicates petal width is shorter than the petal and sepal length which we have also seen earlier in this anaylsis.
 
 Seaborn pairplot function creates a grid of axes such that each variable in data will by shared in the y-axis across a single row and in the x-axis across a single column [[3]](https://seaborn.pydata.org/generated/seaborn.pairplot.html). This is very useful to show the correlation of all variales against each other.
  
 A violin plot has four layers. The outer shape represents all possible results, with thickness indicating how common. (Thus the thickest section represents the mode average.) The next layer inside represents the values that occur 95% of the time. The next layer (if it exists) inside represents the values that occur 50% of the time. The central dot represents the median average value.[[7]](https://en.wikipedia.org/wiki/Violin_plot). From our violin plots we can see that the setosa has a completely different shape than the other two species. Virginica is longer than versicolor in relation to the petal length. The same is true of the sepal length. Versicolor and virginica species have similair means for sepal width. but sepal width for the setosa is longer than the other two species which is a change from the rest of the other categories. 
+
+To summarise our analysis this is a type of Linear Discriminant Analysis (LDA). LDA a method used in statistics, pattern recognition and machine learning to find a linear combination of features that characterizes or separates two or more classes of objects or events. [[9]](https://en.wikipedia.org/wiki/Linear_discriminant_analysis). As we can see, Fisher's iris data set provides a good testing envirnoment to run LDA and for someone beginning a new programming language it has all the elements needed to perfrom new skills.
 
 
 ## Referencest
@@ -170,21 +172,9 @@ A violin plot has four layers. The outer shape represents all possible results, 
 
 7. https://en.wikipedia.org/wiki/Violin_plot
 
-https://www.kaggle.com/danalexandru/simple-analysis-of-iris-dataset
+8. https://www.kaggle.com/danalexandru/simple-analysis-of-iris-dataset
 
-https://plot.ly/ipython-notebooks/principal-component-analysis/
-
-https://www.neuraldesigner.com/learning/examples/iris_flowers_classification
-
-https://en.wikipedia.org/wiki/Iris_flower_data_set
-
-https://www.techopedia.com/definition/32880/iris-flower-data-set
-
-https://stats.stackexchange.com/questions/74776/what-aspects-of-the-iris-data-set-make-it-so-successful-as-an-example-teaching
-
-http://sebastianraschka.com/Articles/2014_python_lda.html#introduction
-
-numpy etc https://solarianprogrammer.com/2017/02/25/install-numpy-scipy-matplotlib-python-3-windows/
+9. https://en.wikipedia.org/wiki/Linear_discriminant_analysis
 
 ### Built With
 This repository contains Python code only.
