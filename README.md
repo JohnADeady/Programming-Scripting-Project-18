@@ -75,8 +75,8 @@ Besides its obvious scientific uses, NumPy can also be used as an efficient mult
 4. [Seaborn](https://seaborn.pydata.org/) Seaborn is a Python visualization library based on matplotlib. It provides a high-level interface for drawing attractive statistical graphics.
 
 
-### Summarise the data set by max, min and mean of each using python
-We begin my import the librares that are needed to analysis the iris data set.
+### Python Programme
+We begin my importing the librares that are needed to analysis the iris data set.
 
 ```import numpy as np
 import seaborn as sns
@@ -87,7 +87,7 @@ import pylab
 from mpl_toolkits.mplot3d import Axes3D
 ```
 
-Next import the iris data set into [VSC](https://code.visualstudio.com/) so the data can be read and analysis using [Pandas](https://pandas.pydata.org/)
+Next import the iris data set into [VSC](https://code.visualstudio.com/) so the data can be read and analysed using [Panda](https://pandas.pydata.org/)
 
 ```data = pd.read_csv('project/Iris.data.csv')```
 
@@ -113,7 +113,7 @@ Our first piece of analysis is requesting the top and bottom lines of the data s
  
  <img src="Histogram.png" height="600" width="1000">
  
- We create scatterplot that shows the ratio between the width and length of both sepal leafs and petal leafs. 
+ We create scatterplot that shows the ratio between the width and length of both sepal leaves and petal leaves. 
  
   <img src="Sepal.png" height="600" width="600">
   
@@ -142,7 +142,7 @@ We begin by downloading the the Iris data set from [UCI](https://archive.ics.uci
 
 Using [Pandas](https://pandas.pydata.org/) a data analysis tools for the Python programming language, we create a data table. Included in this table, are count, mean, standard deviation, min , 25%, 50%, 75% and finally max. From this table, we identify that the sepal length is the longest in centimetres with the average being 5.843333 while the petal width is the shortest in centimetres with the averaging being 1.198667.
 
-Looking from the point of view of standard deviation, petal length is the furthest away from the mean at 1.764420 while sepal width has the least deviation from the mean at 0.433594
+Looking at the standard deviation, petal length is the furthest away from the mean at 1.764420 while sepal width has the least deviation from the mean at 0.433594
 
 Our histogram shows both the petal lenght and width are left skewed meaning that the majoruty is greater than the mean while the sepal lenght and width has a bell shaped i.e. shape is symmetrical meaning the majority are relative close to the mean.
 
@@ -152,7 +152,7 @@ Next up is the scatterplots One type of species, the setosa is linearly separabl
 
 Seaborn pairplot function creates a grid of axes such that each variable in data will by shared in the y-axis across a single row and in the x-axis across a single column [[3]](https://seaborn.pydata.org/generated/seaborn.pairplot.html). This is very useful to show the correlation of all variales against each other.
  
-
+A violin plot has four layers. The outer shape represents all possible results, with thickness indicating how common. (Thus the thickest section represents the mode average.) The next layer inside represents the values that occur 95% of the time. The next layer (if it exists) inside represents the values that occur 50% of the time. The central dot represents the median average value.[[7]](https://en.wikipedia.org/wiki/Violin_plot). From our violin plots we can see that the setosa has a completely different shape than the other two species. Virginica is longer than versicolor in relation to the petal length. The same is true of the sepal length. Versicolor and virginica species have similair means for sepal width. but sepal width for the setosa is longer than the other two species which is a change from the rest of the other categories. 
 
 
 ## Referencest
@@ -167,6 +167,8 @@ Seaborn pairplot function creates a grid of axes such that each variable in data
 5. https://rpubs.com/mculp/290780
 
 6. https://docs.tibco.com/pub/spotfire/6.5.1/doc/html/3d_scat/3d_scat_what_is_a_3d_scatter_plot.htm
+
+7. https://en.wikipedia.org/wiki/Violin_plot
 
 https://www.kaggle.com/danalexandru/simple-analysis-of-iris-dataset
 
