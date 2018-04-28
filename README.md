@@ -41,20 +41,20 @@ The reason why this is widely used for testing purposes:
 
 [Anaconda](https://www.anaconda.com/download/) is a free and open source distribution of the Python and R programming languages for large-scale data processing, predictive analytics, and scientific computing, that aims to simplify package management and deployment.
 
-[VS Code](https://code.visualstudio.com/). is a source code editor developed by Microsoft for Windows, Linux and MacOS. It includes support for debugging, embedded Git control, syntax highlighting, intelligent code completion, snippets, and code refactoring. [10](https://en.wikipedia.org/wiki/Visual_Studio_Code)
+[VS Code](https://code.visualstudio.com/). is a source code editor developed by Microsoft for Windows, Linux and MacOS. It includes support for debugging, embedded Git control, syntax highlighting, intelligent code completion, snippets, and code refactoring. [[10]](https://en.wikipedia.org/wiki/Visual_Studio_Code)
 
-Step by sted guide for downloading [Python](https://www.python.org/):
+Step by step guide for downloading [Python](https://www.python.org/):
  1. Open [Python](https://www.python.org/)
  2. Download version Python [3.6.5](https://www.python.org/downloads/)
  3. Follow the instructions on screen - unsure about settings accept the default settings.
  
-Step by sted guide for downloading [Anaconda](https://www.anaconda.com/download/):
+Step by step guide for downloading [Anaconda](https://www.anaconda.com/download/):
 1. Open Anaconda Download
 2. Click Python 3.6 version
 3. Follow the instructions on screen - unsure about settings accept the default settings.
 4. Once completed test installation
 
-Step by sted guide for downloading [VS Code](https://code.visualstudio.com/):
+Step by step guide for downloading [VS Code](https://code.visualstudio.com/):
 1. Open VS Studio DownloadN
 2. Depending on your OS system - click the appropriate one ie Windows, Mac.
 3. Follow the instructions on screen - unsure about settings accept the default settings.
@@ -146,7 +146,7 @@ Looking at the standard deviation, petal length is the furthest away from the me
 
 Our histogram shows both the petal lenght and width are left skewed meaning that the majoruty is greater than the mean while the sepal lenght and width has a bell shaped i.e. shape is symmetrical meaning the majority are relative close to the mean.
 
-Next up are the scatter plots, one type of species the setosa is linearly separable from the other two species, but the other two species are not linearly separable from each other. [[4]](https://www.kaggle.com/uciml/iris) The plots clearly show the virginica variety of plants have the greatest petal lengths and widths of the three, while the setosa variety has the smallest.The virginica variety also have the greatest sepal lengths but the setosa variety have greatest sepal widths.The versicolor plants seem to lie in the middle ranges of all the measurements taken.[[5]](https://rpubs.com/mculp/290780)
+Next up are the scatter plots,the setosa is linearly separable from the other two species, but the other two species are not linearly separable from each other. [[4]](https://www.kaggle.com/uciml/iris) The plots clearly show the virginica variety of plants have the greatest petal lengths and widths of the three, while the setosa variety has the smallest.The virginica variety also have the greatest sepal lengths but the setosa variety have greatest sepal widths.The versicolor plants seem to lie in the middle ranges of all the measurements taken.[[5]](https://rpubs.com/mculp/290780)
 
 3D scatter plots are used to plot data points on three axes in the attempt to show the relationship between three variables. Each row in the data table is represented by a marker whose position depends on its values in the columns set on the X, Y, and Z axes. [[6]](https://docs.tibco.com/pub/spotfire/6.5.1/doc/html/3d_scat/3d_scat_what_is_a_3d_scatter_plot.htm). Our scatterplot indicates petal width is shorter than the petal and sepal length which we have also seen earlier in this anaylsis.
 
@@ -154,7 +154,7 @@ Seaborn pairplot function creates a grid of axes such that each variable in data
  
 A violin plot has four layers. The outer shape represents all possible results, with thickness indicating how common. (Thus the thickest section represents the mode average.) The next layer inside represents the values that occur 95% of the time. The next layer (if it exists) inside represents the values that occur 50% of the time. The central dot represents the median average value.[[7]](https://en.wikipedia.org/wiki/Violin_plot). From our violin plots we can see that the setosa has a completely different shape than the other two species. Virginica is longer than versicolor in relation to the petal length. The same is true of the sepal length. Versicolor and virginica species have similair means for sepal width. but sepal width for the setosa is longer than the other two species which is a change from the rest of the other categories. 
 
-To summarise our analysis this is a type of Linear Discriminant Analysis (LDA). LDA a method used in statistics, pattern recognition and machine learning to find a linear combination of features that characterizes or separates two or more classes of objects or events. [[9]](https://en.wikipedia.org/wiki/Linear_discriminant_analysis). As we can see, Fisher's iris data set provides a good testing envirnoment to run LDA and for someone beginning a new programming language it has all the elements needed to perfrom new skills.
+To summarise our analysis this is a type of Linear Discriminant Analysis (LDA). LDA a method used in statistics, pattern recognition and machine learning to find a linear combination of features that characterizes or separates two or more classes of objects or events. [[9]](https://en.wikipedia.org/wiki/Linear_discriminant_analysis). As we can see, Fisher's iris data set provides a good testing envirnoment to run LDA and for someone beginning a new programming language it has all the elements needed to perfrom new skills learnt.
 
 
 ## Referencest
