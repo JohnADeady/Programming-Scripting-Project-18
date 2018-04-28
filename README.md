@@ -41,7 +41,7 @@ The reason why this is widely used for testing purposes:
 
 [Anaconda](https://www.anaconda.com/download/) is a free and open source distribution of the Python and R programming languages for large-scale data processing, predictive analytics, and scientific computing, that aims to simplify package management and deployment.
 
-[VS Code](https://code.visualstudio.com/). is a source code editor developed by Microsoft for Windows, Linux and macOS. It includes support for debugging, embedded Git control, syntax highlighting, intelligent code completion, snippets, and code refactoring. (Ref [Wikipedia](https://en.wikipedia.org/wiki/Visual_Studio_Code)
+[VS Code](https://code.visualstudio.com/). is a source code editor developed by Microsoft for Windows, Linux and MacOS. It includes support for debugging, embedded Git control, syntax highlighting, intelligent code completion, snippets, and code refactoring. [10](https://en.wikipedia.org/wiki/Visual_Studio_Code)
 
 Step by sted guide for downloading [Python](https://www.python.org/):
  1. Open [Python](https://www.python.org/)
@@ -175,6 +175,8 @@ To summarise our analysis this is a type of Linear Discriminant Analysis (LDA). 
 8. https://www.kaggle.com/danalexandru/simple-analysis-of-iris-dataset
 
 9. https://en.wikipedia.org/wiki/Linear_discriminant_analysis
+
+10.https://en.wikipedia.org/wiki/Visual_Studio_Code
 
 ### Built With
 This repository contains Python code only.
