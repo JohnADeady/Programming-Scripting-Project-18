@@ -176,7 +176,7 @@ To summarise our analysis this is a type of Linear Discriminant Analysis (LDA). 
 
 9. https://en.wikipedia.org/wiki/Linear_discriminant_analysis
 
-10.https://en.wikipedia.org/wiki/Visual_Studio_Code
+10. https://en.wikipedia.org/wiki/Visual_Studio_Code
 
 ### Built With
 This repository contains Python code only.
